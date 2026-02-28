@@ -75,3 +75,10 @@ Built with 💻 and ☕ | Version 1.0 — 2025
 
 This tool is intended for **educational and personal use only**.  
 Use responsibly and ethically.
+
+
+
+
+
+<img width="656" height="630" alt="Screenshot_2025-12-26_04_50_17" src="https://github.com/user-attachments/assets/e6ab0dd5-0c8b-4530-ba3b-4c950fa5a704" />
+
