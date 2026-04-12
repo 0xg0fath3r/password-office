@@ -22,8 +22,7 @@ KEY_FILE = os.path.join(BASE, os.getenv("KEY_FILE", "data/key.key"))
 DB_FILE  = os.path.join(BASE, os.getenv("DB_FILE",  "data/passwords.enc"))
 
 
-# ── Data directory & key management ───────────────────────────────────────────
-
+#Data directory & key management
 def ensure_data():
     """Create data directory if it doesn't exist."""
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -45,8 +44,7 @@ def load_or_create_key():
         return f.read()
 
 
-# ── Encryption helpers ─────────────────────────────────────────────────────────
-
+# Encryption helpers
 def save_list(lst, fernet):
     """Encrypt and save the password list to DB_FILE."""
     raw   = json.dumps(lst).encode("utf-8")
@@ -75,8 +73,7 @@ def load_list(fernet):
         return None
 
 
-# ── CRUD operations ────────────────────────────────────────────────────────────
-
+# CRUD operations
 def add_password(fernet):
     """Prompt and save a new password entry."""
     print("\n" + "=" * 50)
@@ -244,8 +241,7 @@ def reset_database():
     print("[+] Database and key removed. A new key will be created on next use.\n")
 
 
-# ── Main interface ─────────────────────────────────────────────────────────────
-
+#Main interface 
 def manager_interface():
     """Interactive password manager CLI."""
     ensure_data()
