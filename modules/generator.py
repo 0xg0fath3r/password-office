@@ -9,6 +9,7 @@ import random
 import string
 
 
+# Method for password generation
 def generator_interface():
     """
     Interactive password generator.
