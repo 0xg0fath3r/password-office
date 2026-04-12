@@ -1,4 +1,4 @@
-#!/usr/bin/env python3   #(This helps executes the codes by just calling the file name)
+#!/usr/bin/env python3   #(This helps executes the codes by just calling the file name in Kali Linux)
 # Standard library imports
 import os
 import sys
@@ -77,6 +77,7 @@ def spinner(text: str = "Loading", duration: float = 1.6):
             time.sleep(0.08)
     print()
 
+# Method to create random security qoutes
 def random_quote() -> str:
     """This function return a decorative cybersecurity quote."""
     quotes = [
@@ -126,8 +127,8 @@ def print_gradient_banner(banner: str, colors: list):
     # ensure final newline
     print()
     
-    # Show_banner Method
 
+# Show_banner Method
 def show_banner():
     """
     Display the full intro:
@@ -147,8 +148,8 @@ def show_banner():
     slow_print(Fore.GREEN + random_quote().center(80), delay=0.0015)
     print(Fore.WHITE + "=" * 80 + "\n")
 
-# Main menu Method
 
+# Main menu Method
 def main_menu():
     """
     Main interactive loop presenting the five options.
@@ -183,9 +184,9 @@ def main_menu():
         else:
             # Friendly error on invalid input; 
             print(Fore.RED + "[!] Invalid option. Please choose 1-5.\n" + Style.RESET_ALL)
-            
-            # Start App Method
 
+
+# Start App Method
 def main():
     """
     Program entrypoint:
