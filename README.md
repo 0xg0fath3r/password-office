@@ -1,4 +1,4 @@
-# 🔐 Password Office
+# Password Office
 
 > A Kali Linux-based command-line password security suite built in Python.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 About
+## About
 
 **Password Office** is a terminal-based cybersecurity tool designed for security professionals and 
 enthusiasts. It provides a suite of password utilities in one clean, animated CLI interface — 
@@ -17,18 +17,18 @@ from generating strong passwords to securely storing and managing them using enc
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🔑 **Password Generator** | Generate strong random passwords of any length |
-| 💪 **Strength Checker** | Score your password as WEAK / MEDIUM / STRONG |
-| 📋 **Policy Checker** | Verify if a password meets security policy requirements |
-| 🗄️ **Password Manager** | Store and retrieve passwords using Fernet encryption |
+| **Password Generator** | Generate strong random passwords of any length |
+| **Strength Checker** | Score your password as WEAK / MEDIUM / STRONG |
+| **Policy Checker** | Verify if a password meets security policy requirements |
+| **Password Manager** | Store and retrieve passwords using Fernet encryption |
 
 ---
 
-## 🛠️ Installation
+## Installation
 ```bash
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/password-office.git
@@ -42,14 +42,14 @@ pip install colorama cryptography
 
 ---
 
-## 🚀 Usage
+## Usage
 ```bash
 python3 password_office_cli.py
 ```
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 password-office/
 ├── password_office_cli.py   # Main entry point
@@ -64,14 +64,14 @@ password-office/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Ogbonna Samuel**  
 Built with 💻 and ☕ | Version 1.0 — 2025
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is intended for **educational and personal use only**.  
 Use responsibly and ethically.
