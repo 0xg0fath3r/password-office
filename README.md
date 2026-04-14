@@ -67,7 +67,7 @@ password-office/
 ## Author
 
 **Ogbonna Samuel**  
-Built with 💻 and ☕ | Version 1.0 — 2025
+Built with 💻 | Version 1.0 — 2025
 
 ---
 
