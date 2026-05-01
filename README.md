@@ -67,14 +67,14 @@ password-office/
 ## Author
 
 **Ogbonna Samuel**  
-Built with 💻 | Version 1.0 — 2025
+Built with Python | Version 1.0 — 2025
 
 ---
 
 ## Disclaimer
 
 This tool is intended for **educational and personal use only**.  
-Use responsibly and ethically.
+Use responsibly and ethically (whatever!).
 
 
 
